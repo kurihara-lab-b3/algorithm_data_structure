@@ -31,6 +31,14 @@ $ git commit -m "sortを解いた"
 $ git push origin yutaro_yamanaka_sort
 ```
 
+masterの方が進んでる
+```
+branch master確認
+$ git pull origin master
+$ git checkout マージさせたいブランチ
+$ git merge
+```
+
 この後, masterへPull Requestを出す。
 基本的に、一番最初にやった人をmasterにmergeしようかと。
 
